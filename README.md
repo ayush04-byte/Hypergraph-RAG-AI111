@@ -1,5 +1,15 @@
 # Hypergraph-RAG-AI111
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Project-Ongoing-brightgreen)
+![Course](https://img.shields.io/badge/Course-AI111-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-blueviolet)
+
+<p align="center">
+  <h1> Hypergraph-Based Retrieval System</h1>
+</p>
+
 ## Overview
 This project implements a "Hypergraph-Based Retrieval-Augmented System" for multi-entity data analysis. Traditional graph models are limited to pairwise relationships, whereas hypergraphs allow a single edge (hyperedge) to connect multiple entities simultaneously. 
 
@@ -17,8 +27,66 @@ The system leverages this capability to perform **multi-hop retrieval** and capt
 - **Multi-hop Retrieval**: Traversing through multiple connected nodes to gather relevant information
 - **Higher-order Relationships**: Capturing complex dependencies beyond pairwise interactions
 
-## Tech Stack
+## Why Hypergraph?
 
+Traditional graphs only support pairwise relationships. However, real-world data often involves multiple entities interacting simultaneously.
+
+Hypergraphs allow:
+- Representation of higher-order relationships  
+- Better context preservation  
+- More efficient multi-hop reasoning  
+
+This makes them suitable for complex retrieval systems.
+## Tech Stack
+- Python
+- Standard Data Structures (List, Set, Dictionary)
+- NetworkX for visualization
+- Matplotlib for plotting
+
+## Project Structure
+Hypergraph-RAG-AI111/<br>
+│── data/<br>
+│ └── sample_data.json # Input dataset<br>
+│<br>
+│── src/<br>
+│ ├── hypergraph.py # Hypergraph construction<br>
+│ ├── retrieval.py # Retrieval logic<br>
+│ └── main.py # Main execution file<br>
+│<br>
+│── results/<br>
+│ └── output_examples.txt # Sample outputs<br>
+│<br>
+│── README.md # Project documentation<br>
+│── requirements.txt # Dependencies<br>
+│── .gitignore # Ignored files<br>
+
+---
+
+## Installation & Setup
+
+### 1. Clone the Repository
+git clone https://github.com/ayush04-byte/Hypergraph-RAG-AI111.git
+cd Hypergraph-RAG-AI111
+
+### 2. Install Dependencies 
+pip install -r requirements.txt
+
+### 3. Run the project 
+python src/main.py
+
+---
+
+## Example 
+
+### 🔹 Input Query 
+AI course relationships 
+### 🔹 Hypergraph Representation
+{Query1, Doc1, "AI", "Prof Sharma"}
+{Doc1, "Machine Learning", "Algorithm"}
+### 🔹 Output
+Related Nodes: Doc1, AI, Machine Learning, Prof Sharma
+
+--- 
 
 ## Features
 - Hypergraph contruction using multi-entity relationships
@@ -42,6 +110,13 @@ The system leverages this capability to perform **multi-hop retrieval** and capt
 - **Coding / Implementation** : Abhigyan Jha (2025AIB1002) , Rijul Bhutani (2025AIB1053)
 - **Report / PPT** : Danish Chopra (2025AIB1018)
 - **Github Repository** : Ayush Kumar (2025AIB1013)
+
+## Repository Activity
+
+This repository was actively developed with structured commits reflecting incremental progress in:
+- Hypergraph construction  
+- Retrieval logic  
+- Documentation 
 
 ## Contribution 
 
