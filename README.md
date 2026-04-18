@@ -81,7 +81,7 @@ python src/main.py
 
 ## DEMO
 
-![Demo](Hypergraph%20RAG%AI111/code%20gif.gif)
+![Demo](Hypergraph%20RAG%20AI111/code%20gif.gif)
 
 ---
 
