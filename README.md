@@ -39,27 +39,24 @@ Hypergraphs allow:
 This makes them suitable for complex retrieval systems.
 ## Tech Stack
 - Python
-- Standard Data Structures (List, Set, Dictionary)
-- NetworkX for visualization
-- Matplotlib for plotting
 
 ## Project Structure
 Hypergraph-RAG-AI111/<br>
-│── data/<br>
-│ └── sample_data.json # Input dataset<br>
-│<br>
 │── src/<br>
-│ ├── hypergraph.py # Hypergraph construction<br>
-│ ├── retrieval.py # Retrieval logic<br>
-│ └── main.py # Main execution file<br>
+│ ├── index & retrieval.py # Index & Retrieval<br>
+│ ├── Ingestion.py # Ingestion<br>
+│ └── Memory Schema_Hypergraph.py # Hypergraph<br>
+│ └── Neural Engine.py # Neural Egnine<br>
+│ └── demo.py # Demo<br>
+│ └── main.py # Main<br>
 │<br>
 │── results/<br>
 │ └── output_examples.txt # Sample outputs<br>
 │<br>
-│── README.md # Project documentation<br>
 │── requirements.txt # Dependencies<br>
-│── .gitignore # Ignored files<br>
-
+gitignore # Ignored files<br>
+LICENSE # License File<br>
+README.md # README File<br>
 ---
 
 ## Installation & Setup
