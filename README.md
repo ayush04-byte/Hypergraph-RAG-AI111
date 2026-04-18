@@ -43,12 +43,12 @@ This makes them suitable for complex retrieval systems.
 ## Project Structure
 Hypergraph-RAG-AI111/<br>
 │── src/<br>
-│ ├── index & retrieval.py # Index & Retrieval<br>
-│ ├── Ingestion.py # Ingestion<br>
-│ └── Memory Schema_Hypergraph.py # Hypergraph<br>
-│ └── Neural Engine.py # Neural Egnine<br>
-│ └── demo.py # Demo<br>
-│ └── main.py # Main<br>
+│ ├── index & retrieval.py # Hypermem Index<br>
+│ ├── Ingestion.py # Build Memory<br>
+│ └── Memory Schema_Hypergraph.py # TopicNode, EpisodeNode, FactNode, HypergraphMemory<br>
+│ └── Neural Engine.py # HypergraphConv<br>
+│ └── demo.py # Demo function<br>
+│ └── main.py # Main entry<br>
 │<br>
 │── results/<br>
 │ └── output_examples.txt # Sample outputs<br>
