@@ -75,15 +75,15 @@ python src/main.py
 
 ## Example 
 
-### 🔹 Input Query 
-AI course relationships 
-### 🔹 Hypergraph Representation
-{Query1, Doc1, "AI", "Prof Sharma"}
-{Doc1, "Machine Learning", "Algorithm"}
-### 🔹 Output
-Related Nodes: Doc1, AI, Machine Learning, Prof Sharma
+![Output](Hypergraph%20RAG%20AI111/example.jpeg)
 
 --- 
+
+## DEMO
+
+![Demo](Hypergraph%20RAG%AI111/code%20gif.gif)
+
+---
 
 ## Features
 - Hypergraph contruction using multi-entity relationships
