@@ -101,6 +101,7 @@ python src/main.py
 - Prototype-level implementation
 - No deep learning integration (yet)
 - Limited dataset for demonstration purposes
+- Interpretability trade-off: while relationships are richer, they can become harder to reason about or debug.
 
 ## Team Members & Roles 
 - **Literature Survey** : Nikhil Harsh (2025AIB1041)
